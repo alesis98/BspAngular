@@ -1,0 +1,22 @@
+<header id="mainHeader">
+  <div class="container">
+    <div class="menuWrapper">
+      <nav class="mainMenu">
+        <ul>
+          <li>
+            <a routerLink="/home">Home</a>
+          </li>
+          <li>
+            <a routerLink="/contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <button (click)="onLogout()" class="button">
+        Logout
+        <mat-icon>exit_to_app</mat-icon>
+      </button>
+    </div>
+  </div>
+</header>
+
+<router-outlet> </router-outlet>

@@ -1,0 +1,10 @@
+<app-navbar></app-navbar>
+
+<div class="container">
+  <ng-container *ngIf="persona; else noData">
+    <p>{{ persona.nome }} - {{ persona.email }}</p>
+  </ng-container>
+  <ng-template #noData>
+    <p>Persona non trovata o errore nel caricamento dei dati.</p>
+  </ng-template>
+</div>

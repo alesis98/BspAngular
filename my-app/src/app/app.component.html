@@ -1,0 +1,22 @@
+<!-- 
+
+PASSARE DATI DA PADRE A FIGLI
+
+<app-prova [data]="persone"></app-prova>
+<button (click)="onClick()">Button</button>
+
+
+PASSARE DATI DA FIGLI A PADRE
+<app-prova (mandaDatiEvento)="onRiceviDati($event) "></app-prova>
+
+
+
+<h2>scegli il colore dell'evidenziatore:</h2>
+<div>
+    <input type="radio" name="coloreEvidenziatore" (click)="cambiaColoreEvidenziatore('red')">Rosso
+    <input type="radio" name="coloreEvidenziatore" (click)="cambiaColoreEvidenziatore('pink')">Rosa
+    <input type="radio" name="coloreEvidenziatore" (click)="cambiaColoreEvidenziatore('purple')">Viola
+</div>
+<p [appHighlight]="colore">Ciao sono un paragrafo</p> -->
+
+<router-outlet> </router-outlet>

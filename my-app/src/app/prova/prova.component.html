@@ -1,0 +1,71 @@
+<!-- <mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>{{ cani[0].nome }}</mat-card-title>
+    <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+  </mat-card-header>
+
+  <mat-card-content>
+    <p>
+      The Shiba Inu is the smallest of the six original and distinct spitz
+      breeds of dog from Japan. A small, agile dog that copes very well with
+      mountainous terrain, the Shiba Inu was originally bred for hunting.
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions>
+</mat-card> -->
+
+<!-- <button mat-raised-button color="primary" (click)="onClick()">Primary</button> -->
+<!-- mat-form-field class="example-full-width" appearance="fill">
+  <mat-label>Favorite food</mat-label>
+  <input
+    matInput
+    placeholder="Ex. Pizza"
+    (input)="onInput($event)"
+    [(ngModel)]="title"
+  />
+</mat-form-field>
+<p>{{ title }}</p>
+
+<button
+  mat-raised-button
+  color="primary"
+  [disabled]="isDisabled"
+  (click)="onClick($event)"
+>
+  Primary
+</button>
+
+<p *ngIf="isVisible; else bloccoElse">Sono Visibile</p> -->
+
+<!-- variabile ng-template: elemento che vede solo angular -->
+<!-- <ng-template #bloccoElse>
+  <p>Non sono visibile</p>
+</ng-template> -->
+
+<!-- <ul>
+  <li *ngFor="let persona of persone">
+    {{ persona.nome }} - {{ persona.cognome }}
+  </li>
+</ul>
+
+<div *ngFor="let persona of persone">
+  <p class="cerchioVerde" *ngIf="persona.isOnline"></p>
+  <P class="cerchioRosso" *ngIf="!persona.isOnline"></P>
+  <p>{{persona.nome}}  {{persona.cognome}}</p>
+</div> -->
+
+<!-- <ul>
+  <li *ngFor="let persona of data" class="person">
+    <span [ngClass]="{'online': persona.isOnline, 'offline': !persona.isOnline}" class="status-circle"></span>
+    {{ persona.nome }} {{ persona.cognome }}
+  </li>
+</ul>
+ -->
+
+ 
+<button (click)="mandaDati()">Manda Dati</button>
+

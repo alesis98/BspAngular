@@ -1,0 +1,29 @@
+<app-navbar></app-navbar>
+<div class="contact-list-container">
+  <p class="contact-list-title">LISTA CONTATTI</p>
+
+  <div class="card-container">
+    <div *ngFor="let persona of persone" class="card">
+      <a [routerLink]="['/contact', persona.id]">
+        <img
+          src="https://via.placeholder.com/150"
+          alt="Foto Persona"
+          class="card-img"
+        />
+      </a>
+      <div class="card-content">
+        <h2>{{ persona.nome }}</h2>
+        <p>{{ persona.email }}</p>
+      </div>
+      <button
+        mat-flat-button
+        color="warn"
+        (click)="onDeletePersona(persona.id)"
+      >
+        Delete
+      </button>
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>

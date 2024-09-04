@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body,
+body *:not(mat-icon) {
+  font-family: "Dosis", sans-serif !important;
+}
+/* src/styles.css o src/styles.scss */

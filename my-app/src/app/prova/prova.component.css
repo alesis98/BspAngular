@@ -1,0 +1,50 @@
+.example-card {
+  max-width: 400px;
+}
+  
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+.cerchioVerde, .cerchioRosso{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.cerchioRosso{
+  background-color: red;
+}
+
+.cerchioVerde{
+  background-color: green;
+}
+  
+
+ul {
+  list-style-type: none; /* Rimuove i puntini standard della lista */
+  padding: 0;
+}
+
+.person {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.status-circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.online {
+  background-color: green;
+}
+
+.offline {
+  background-color: red;
+}
+
